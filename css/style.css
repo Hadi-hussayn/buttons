@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar .navbar{
+    width: 10rem;
+    background-color: blueviolet;
+    position: absolute;
+
+}
+#navbar .navbar ul li {
+    display: block;
+    list-style-type: none;
+    line-height: 4rem;
+    color:#fff;
+    font-size: 20px;
+    background-color:
+}
+#navbar .navbar ul li:hover{
+    color: red;
+    font-size: 1rem;
+    
+}
+#buttons .buttons-wrapper{
+    text-align: center;
+    position: relative;
+
+}
+#buttons .buttons-wrapper .buttons-btn{
+    margin: 0;
+    text-align: center;
+    line-height: 4rem;
+    width: 80%;
+    display: inline-block;
+}
+#buttons .buttons-wrapper .buttons-btn .btn{
+    width: 6rem;
+    border: 1px solid black;
+    height: 3rem;
+    margin:0.2rem;
+    border-radius: 10px;
+
+}
+#buttons .buttons-wrapper .buttons-btn .btn:hover{
+    color: #4c4040;
+    border: 2px solid #4c4040;
+    font-weight: 900;
+    width: 10rem;
+    height: 4rem;
+
+}
+#buttons .buttons-wrapper .buttons-btn .btn-primary{
+    background-color:gray;
+    color: #ffffff;
+    border: 2px solid #216623;
+    width: 5rem;
+}
+#buttons .buttons-wrapper .buttons-btn .btn-primary:hover{
+    color: #1f1414;
+    background-color: #ffffff;
+    border:1px solid blue; 
+}
+#buttons .buttons-wrapper .buttons-btn .btn-secondary{
+    background-color:rgb(72, 100, 138);
+    color: #ffffff;
+    border: 2px solid #216623;
+    border-radius: 10px;
+}
+#buttons .buttons-wrapper .buttons-btn .btn-secondary:hover{
+    color:#fff;
+    background-color: green;
+    border:1px solid pink; 
+}
+#buttons .buttons-wrapper .buttons-btn .btn-danger{
+    color: red;
+    background-color: azure;
+    width: 8rem
+}
+
+
+
+
